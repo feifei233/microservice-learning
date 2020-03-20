@@ -1,0 +1,7 @@
+##配置网关路由
+zuul:
+  routes:
+    ##定义路由策略
+    service-order:
+      path: /api-client/**
+      serviceId: service-client
