@@ -2,6 +2,6 @@
 zuul:
   routes:
     ##定义路由策略
-    service-order:
+    service-client:
       path: /api-client/**
       serviceId: service-client
